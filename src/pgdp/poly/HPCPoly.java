@@ -206,11 +206,4 @@ public class HPCPoly {
 		// TASK 3 (end)
 	}
 
-	public static void main(String[] args) {
-		final ASIC<ComputeCluster<Computer>> a = new ASIC<>();
-		final ASICBoard<Computer> ab = new ASICBoard<>(null);
-		ab.connectByFiber(ab, a);
-		ab.connectByFiber(a, ab);
-	}
-
 }
