@@ -195,7 +195,7 @@ public class HPCPoly {
 		// TASK 3 (start)
 
 		// TODO Write the required code between these tags. Do not remove the tags!
-		ASIC asic = new ASIC<ComputeCluster>();
+		ASIC asic = new ASIC<FPGA>();
 		return asic;
 
 		// TASK 3 (end)
