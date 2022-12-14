@@ -94,6 +94,10 @@ public class HPCPoly {
 
 		// TODO Write the method between these tags. Do not remove the tags!
 		FPGA() {};
+		public void connectByCopper(FPGA fpga) {
+			p("FPGA connected to FPGA by copper.");
+			this.t.connectByCopper(fpga);
+		}
 
 		// TASK 6 (end)
 	}
