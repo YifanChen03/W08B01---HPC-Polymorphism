@@ -38,6 +38,9 @@ public class HPCPoly {
 		// TASK 4 (start)
 
 		// TODO Write the method between these tags. Do not remove the tags!
+		public void connectByFiber(ASIC<ComputeCluster<Computer>> a, ASICBoard<Computer> ab) {
+			p("ASIC connected to ASIC and ASICBoard by fiber.");
+		}
 
 		// TASK 4 (end)
 	}
@@ -201,6 +204,13 @@ public class HPCPoly {
 		return fpgaAsASIC;
 
 		// TASK 3 (end)
+	}
+
+	public static void main(String[] args) {
+		final ASIC<ComputeCluster<Computer>> a = new ASIC<>();
+		final ASICBoard<Computer> ab = new ASICBoard<>(null);
+		ab.connectByFiber(ab, a);
+		ab.connectByFiber(a, ab);
 	}
 
 }
