@@ -175,7 +175,13 @@ public class HPCPoly {
 		// TASK 2 (start)
 
 		// TODO Write the required code between these tags. Do not remove the tags!
-		return new SuperMUC();
+		return new SuperMUC() {
+			@Override
+			public void connectByFiber(Monitor<Master> mo) {
+				c.connectByCopper(c);
+				p("SuperMUC connected to Monitor by fiber.");
+			}
+		};
 
 		// TASK 2 (end)
 	}
