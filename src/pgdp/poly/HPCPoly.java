@@ -178,8 +178,8 @@ public class HPCPoly {
 		return new SuperMUC() {
 			@Override
 			public void connectByFiber(Monitor<Master> mo) {
-				c.connectByCopper(c);
 				p("SuperMUC connected to Monitor by fiber.");
+				c.connectByCopper(c);
 			}
 		};
 
