@@ -145,6 +145,9 @@ public class HPCPoly {
 		// TASK 5 (start)
 
 		// TODO Write the method between these tags. Do not remove the tags!
+		public void connectByCopper(Master ma) {
+			p("SuperMUC connected to Master by copper.");
+		}
 
 		// TASK 5 (end)
 	}
