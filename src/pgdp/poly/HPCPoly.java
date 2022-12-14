@@ -39,6 +39,7 @@ public class HPCPoly {
 
 		// TODO Write the method between these tags. Do not remove the tags!
 
+
 		// TASK 4 (end)
 	}
 
@@ -154,7 +155,12 @@ public class HPCPoly {
 		// TASK 1 (start)
 
 		// TODO Write the required code between these tags. Do not remove the tags!
-		return null;
+		return new Computer() {
+			@Override
+			public void connectByCopper(Computer c) {
+				p("Computer connected to Computer by copper.");
+			}
+		};
 
 		// TASK 1 (end)
 	}
