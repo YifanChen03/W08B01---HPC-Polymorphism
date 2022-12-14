@@ -39,7 +39,6 @@ public class HPCPoly {
 
 		// TODO Write the method between these tags. Do not remove the tags!
 
-
 		// TASK 4 (end)
 	}
 
@@ -196,7 +195,8 @@ public class HPCPoly {
 		// TASK 3 (start)
 
 		// TODO Write the required code between these tags. Do not remove the tags!
-		return new ASIC();
+		ASIC asic = new ASIC();
+		return asic;
 
 		// TASK 3 (end)
 	}
