@@ -90,6 +90,7 @@ public class HPCPoly {
 		// TASK 6 (start)
 
 		// TODO Write the method between these tags. Do not remove the tags!
+		FPGA() {};
 
 		// TASK 6 (end)
 	}
@@ -195,9 +196,9 @@ public class HPCPoly {
 		// TASK 3 (start)
 
 		// TODO Write the required code between these tags. Do not remove the tags!
-		ASIC asic = new ASIC();
-		FPGA asicAsFPGA = (FPGA) asic;
-		return asicAsFPGA;
+		FPGA fpga = new FPGA();
+		ASIC fpgaAsASIC = (ASIC) fpga;
+		return fpgaAsASIC;
 
 		// TASK 3 (end)
 	}
