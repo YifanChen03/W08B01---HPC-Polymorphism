@@ -195,8 +195,9 @@ public class HPCPoly {
 		// TASK 3 (start)
 
 		// TODO Write the required code between these tags. Do not remove the tags!
-		ASIC asic = new ASIC<FPGA>();
-		return asic;
+		ASIC asic = new ASIC();
+		FPGA asicAsFPGA = (FPGA) asic;
+		return asicAsFPGA;
 
 		// TASK 3 (end)
 	}
